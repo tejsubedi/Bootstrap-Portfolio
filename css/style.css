@@ -7,9 +7,12 @@ body {
 .float{
     float: left;
 }
+hr{
+    border: black 1px solid ;
+}
 .footer {
     color: #ffffff;
     text-align: center;
-    padding: 15px;
+    padding: 7px;
     margin: 10px;
 }
