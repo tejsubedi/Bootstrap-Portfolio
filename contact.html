@@ -1,12 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Learning Bootstrap Application</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../Bootstrap-Portfolio/css/style.css" />
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="row bg-dark text-white">
+            <div class="col-8">
+                <h1 class="name">Tej Subedi</h1>
+            </div>
+            <div class="col-4">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link ">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="portfolio.html" class="nav-link ">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row ">
+            <div class="col text-success">
+                <h2>Contact</h2>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="wrapper">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your email address">
+                        </div>
+                        <div class="form-group">
+                            <label for="textarea">Message</label>
+                            <textarea class="form-control" id="textarea" rows="9"
+                                placeholder="Write something"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row bg-dark">
+            <div class="col footer">
+                Tej Subedi
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>

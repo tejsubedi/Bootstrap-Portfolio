@@ -14,5 +14,19 @@ hr{
     color: #ffffff;
     text-align: center;
     padding: 7px;
-    margin: 10px;
+    margin-top: 10px;
+    
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+    bottom: 5px;
+    left: 35px;
+    color: green;
+}
+.size {
+    width: 250px;
+    height: 200px;
 }
