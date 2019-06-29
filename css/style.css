@@ -3,18 +3,34 @@ body {
 }
 .container {
     margin: 5px auto;
+    background-color: #ffffff;
+}
+.header {
+    padding: 10px;
+    margin: 10px;
 }
 .float{
     float: left;
 }
+.main-content {
+    width: 100%;
+    min-height: 530px;
+    overflow: scroll;
+}
+.sub-content {
+    padding: 15px;
+}
+.bio-page {
+    clear: right;
+}
 hr{
-    border: black 1px solid ;
+    border: gray 1px solid ;
 }
 .footer {
     color: #ffffff;
     text-align: center;
-    padding: 7px;
-    margin-top: 10px;
+    padding: 5px;
+    margin: 10px;
     
 }
 .relative {
@@ -23,10 +39,13 @@ hr{
 .absolute {
     position: absolute;
     bottom: 5px;
-    left: 35px;
-    color: green;
+    left: 65px;
+    color: #ffffff;
+    background-color: #666666;
+    font-weight: bold;
 }
 .size {
     width: 250px;
     height: 200px;
+    margin: 5px;
 }
