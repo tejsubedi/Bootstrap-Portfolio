@@ -4,48 +4,19 @@ body {
 .container {
     margin: 5px auto;
     background-color: #ffffff;
+    max-width: 960px;
 }
-.header {
-    padding: 10px;
-    margin: 10px;
-}
-.float{
-    float: left;
+
+.active {
+    color: #4aaaa5;
 }
 .main-content {
-    width: 100%;
-    min-height: 530px;
+    height: 550px;
     overflow: scroll;
 }
-.sub-content {
-    padding: 15px;
-}
-.bio-page {
-    clear: right;
-}
-hr{
-    border: gray 1px solid ;
-}
+
 .footer {
     color: #ffffff;
     text-align: center;
-    padding: 5px;
-    margin: 10px;
-    
-}
-.relative {
-    position: relative;
-}
-.absolute {
-    position: absolute;
-    bottom: 5px;
-    left: 65px;
-    color: #ffffff;
-    background-color: #666666;
-    font-weight: bold;
-}
-.size {
-    width: 250px;
-    height: 200px;
-    margin: 5px;
+    padding: 15px;
 }

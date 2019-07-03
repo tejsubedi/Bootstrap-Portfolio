@@ -8,103 +8,107 @@
     <title>Learning Bootstrap Application</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-    <link rel="stylesheet" href="../Bootstrap-Portfolio/css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
-    <div class="container">
+    <div class="container mt-2">
         <div class="row bg-white text-success header">
-            <div class="col-8">
-                <h1 class="name">Tej Subedi</h1>
+            <div class=" d-flex justify-content-center col-md-4">
+                <h1 class="bg-info text-white p-3 ml-0 mt-1 mb-0">Tej Subedi</h1>
             </div>
-            <div class="col-4">
-                <ul class="nav justify-content-center">
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link">About</a>
+            <div class="col-md-2">
+            </div>
+            <div class="d-flex justify-content-center col-md-6">
+                <ul class="nav mt-4 text-uppercase font-weight-bold">
+                    <li class="nav-item ">
+                        <a href="index.html" class="nav-link text-secondary">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link active">Portfolio</a>
+                        <a href="portfolio.html" class="nav-link  active">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a href="contact.html" class="nav-link">Contact</a>
+                        <a href="contact.html" class="nav-link text-secondary ">Contact</a>
                     </li>
-
                 </ul>
             </div>
         </div>
     </div>
+
     <div class="container main-content">
-        <div class="row sub-content ">
-            <div class="col text-success">
+        <div class="row ">
+            <div class="col-md-12 text-success">
                 <h2>Porfolio</h2>
-                <hr>
+                <hr class="border border-secondary" />
             </div>
         </div>
         <div class="row">
-            <div class="col">
-                <div class="wrapper">
-                    <div class="row">
-                        <div class="col-4">
-                            <div class="relative">
-                                <img class="size" src="../Bootstrap-Portfolio/assets/image/mychat.png" alt="mychat">
-                            </div>
-                            <div>
-                                <p class="absolute">Chat Application</p>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="relative">
-                                <img class="size" src="../Bootstrap-Portfolio/assets/image/mycomp.jpeg" alt="mychat">
-                            </div>
-                            <div>
-                                <p class="absolute">My Websites</p>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="relative">
-                                <img class="size" src="../Bootstrap-Portfolio/assets/image/mygit.png" alt="mychat">
-                            </div>
-                            <div>
-                                <p class="absolute">Github Page</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-4">
-                            <div class="relative">
-                                <img class="size" src="../Bootstrap-Portfolio/assets/image/mylinkedin.png" alt="mychat">
-                            </div>
-                            <div>
-                                <p class="absolute">Linkedin Profile</p>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="relative">
-                                <img class="size" src="../Bootstrap-Portfolio/assets/image/mynature.jpeg" alt="mychat">
-                            </div>
-                            <div>
-                                <p class="absolute">My Hobbies</p>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="relative">
-                                <img class="size" src="../Bootstrap-Portfolio/assets/image/mycomp1.jpeg" alt="mychat">
-                            </div>
-                            <div>
-                                <p class="absolute">Class Room Activities</p>
-                            </div>
-                        </div>
-                    </div>
-
+            <div class="col-md-4 ">
+                <div class="card img-fluid m-4 " style="width:250px" >
+                    <img class="card-img-bottom" src="./assets/image/mychat.png" alt="mychat" style="width:100%" height="200px" />
+                    <a class="btn btn-secondary" href="#" target="_blank" rel="noopener noreferrer">
+                        <div class="card-img-overlay text-center  text-uppercase"></div>
+                        <p class="text-uppercase ">
+                            <strong>Chat Application</strong>
+                        </p>
+                    </a>
                 </div>
-
+                <div class="card img-fluid m-4" style="width:250px">
+                    <img class="card-img-bottom" src="./assets/image/mygit.png" alt="mychat" style="width:100%" height="200px" />
+                    <a class="btn btn-secondary" href="#" target="_blank" rel="noopener noreferrer">
+                        <div class="card-img-overlay text-center  text-uppercase"></div>
+                        <p class="text-uppercase ">
+                            <strong>My Github</strong>
+                        </p>
+                    </a>
+                </div>
             </div>
+            <div class="col-md-4">
+                <div class="card img-fluid m-4" style="width:250px">
+                    <img class="card-img-bottom" src="./assets/image/mycomp.jpeg" alt="mychat" style="width:100%" height="200px" />
+                    <a class="btn btn-secondary" href="#" target="_blank" rel="noopener noreferrer">
+                        <div class="card-img-overlay text-center  text-uppercase"></div>
+                        <p class="text-uppercase ">
+                            <strong>My Websites</strong>
+                        </p>
+                    </a>
+                </div>
+                <div class="card img-fluid m-4" style="width:250px">
+                    <img class="card-img-bottom" src="./assets/image/mylinkedin.png" alt="mychat" style="width:100%" height="200px" />
+                    <a class="btn btn-secondary" href="#" target="_blank" rel="noopener noreferrer">
+                        <div class="card-img-overlay text-center  text-uppercase"></div>
+                        <p class="text-uppercase ">
+                            <strong>My Linkedin</strong>
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                    <div class="card img-fluid m-4" style="width:250px">
+                        <img class="card-img-bottom" src="./assets/image/mynature.jpeg" alt="mychat" style="width:100%" height="200px" />
+                        <a class="btn btn-secondary" href="#" target="_blank" rel="noopener noreferrer">
+                            <div class="card-img-overlay text-center  text-uppercase"></div>
+                            <p class="text-uppercase ">
+                                <strong>My Hobbies</strong>
+                            </p>
+                        </a>
+                    </div>
+                    <div class="card img-fluid m-4" style="width:250px">
+                        <img class="card-img-bottom" src="./assets/image/mycomp1.jpeg" alt="mychat" style="width:100%" height="200px" />
+                        <a class="btn btn-secondary" href="#" target="_blank" rel="noopener noreferrer">
+                            <div class="card-img-overlay text-center  text-uppercase"></div>
+                            <p class="text-uppercase ">
+                                <strong>My Classwork</strong>
+                            </p>
+                        </a>
+                    </div>
+                </div>
         </div>
     </div>
-    <div class="container fixed-bottom">
+    <div class="container sticky-top">
         <div class="row bg-secondary">
             <div class="col footer">
-                    <p>Tej Subedi, Copyright &copy; 2019  </p>
+                <p>Tej Subedi, Copyright &copy; 2019 </p>
             </div>
         </div>
     </div>
